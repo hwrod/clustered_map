@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Maps Clustering Example</title>
+		<meta name="viewport" content="width=device-width">
+
+		<!-- Load Google Maps API, MarkerClustererPlus, jQuery, and the main logic file -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/markerclusterer.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+	<body>
+		<div id="map_canvas" style="height:600px; width:70%; margin:auto; text-align:center;">Loading . . .</div>
+		<div style="width:70%; margin:auto; text-align:center;">
+			<a href="#" onclick="loadData(0    , 10000)">North East</a> |
+			<a href="#" onclick="loadData(10000, 10000)">South East</a> |
+			<a href="#" onclick="loadData(20000, 10000)">Central</a> |
+			<a href="#" onclick="loadData(30000, 10000)">West</a>
+		</div>
+	</body>
+</html>

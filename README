@@ -1,0 +1,1 @@
+This application shows how to display thousands of markers on Google Maps using clustering, as well as using a pre-geolocated Zip Code flatfile database to make it convenient to work with Zip Codes.
